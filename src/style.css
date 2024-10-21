@@ -1,97 +1,82 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-body {
-  background-image: url(https://wallpapers.com/images/hd/poker-table-green-fabric-ehvbvg2v8010o3sx.jpg);
-  background-size: 100%;
+.contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  width: 300px;
+  height: 300px;
+  background-image: url("https://wallpapers.com/images/hd/poker-table-green-fabric-ehvbvg2v8010o3sx.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .card {
-  height: 70vh;
-  width: 40vh;
   box-shadow: 17px 17px 60px rgba(0, 0, 0, 15);
 }
 .simbol-hear {
-  width: 40vh;
-  height: 8vh;
+  width: 100%;
+  height: 15%;
   align-items: center;
 }
 .simbol-hear p {
-  font-size: 40px;
-  padding-left: 22px;
-  padding-top: 18px;
+  font-size: 500%;
+  padding-left: 5%;
 }
 
 .icon {
-  height: 53vh;
+  height: 75%;
 }
 
 .icon h1 {
-  font-size: 37vh;
+  font-size: 3000%;
   display: flex;
   justify-content: center;
 }
 
 .simbol-bass {
-  width: 40vh;
-  height: 9vh;
-
+  width: 100%;
+  height: 15%;
   align-items: center;
 }
 
 .simbol-bass p {
-  font-size: 40px;
-  padding-right: 26px;
+  font-size: 500%;
+  padding-right: 5%;
   display: flex;
   justify-content: end;
-  padding-top: 24px;
+  padding-top: 5%;
 }
 
 .information {
-  background-image: url(https://static6.depositphotos.com/1003492/573/v/450/depositphotos_5739902-stock-illustration-neon-with-card-symbols.jpg);
-  background-size: 100%;
-  height: 52vh;
-  width: 58vh;
-  box-shadow: 17px 17px 60px rgba(0, 0, 0, 15);
-  margin: 20px;
-}
-.parrafo {
   background-image: url(https://www.shutterstock.com/image-vector/poker-casino-table-background-green-600nw-2239114447.jpg);
   background-size: cover;
-  width: 44vh;
-  height: 19vh;
   box-shadow: 17px 17px 60px rgba(0, 0, 0, 15);
-  margin-left: 86px;
-  margin-top: 264px;
-}
-.text {
-  width: 45vh;
-  padding-left: 12px;
-  padding-top: 8px;
 }
 
-.parrafo p {
+#parrafo {
   font-family: fantasy;
+  padding: 5%;
+  padding-top: 5%;
 }
-.parrafo img {
-  width: 10%;
-}
-.pain {
-  background-image: url(https://cdn3d.iconscout.com/3d/premium/thumb/croupier-mujer-9384012-7621944.png?f=webp);
-  background-size: cover;
-  width: 21%;
-  height: 9vh;
-  margin-top: 66px;
-  margin-left: 416px;
+
+#imagen {
+  width: 61%;
+  height: 55%;
+  margin-top: 8%;
+  margin-left: 20%;
 }
 .button {
-  width: 11vh;
-  height: 3vh;
-  margin-top: 95px;
-  margin-left: 318px;
+  width: 20%;
+  margin-left: 41%;
 }
 button {
-  background-color: darkseagreen;
+  background-color: goldenrod;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
 }

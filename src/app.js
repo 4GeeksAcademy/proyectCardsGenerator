@@ -17,4 +17,12 @@ window.onload = function() {
   document.querySelector("#suitTwo").innerHTML = suit[rdmSuit];
 
   document.getElementById("genCard").addEventListener("click", window.onload);
+
+  if (suit[rdmSuit] == "♥" || suit[rdmSuit] == "♦") {
+    document.getElementById("suitOne").classList.add("red");
+    document.getElementById("suitTwo").classList.add("red");
+  } else {
+    document.getElementById("suitOne").classList.remove("red");
+    document.getElementById("suitTwo").classList.remove("red");
+  }
 };
